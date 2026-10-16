@@ -1,0 +1,1042 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Le référencement : SEO, SEA, GEO</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- 1. Accueil -->
+    <section class="slide cover" id="accueil">
+      <div class="shapes">
+        <i
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="100"
+        ></i>
+        <i
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="200"
+        ></i>
+        <i
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="300"
+        ></i>
+        <i
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="400"
+        ></i>
+      </div>
+      <span data-aos="fade-down" data-aos-duration="1500" class="tag violet"
+        >Formation UX/UI Designer · Module Environnement et Technologie</span
+      >
+      <h1 data-aos="fade-up" data-aos-duration="1500">Le<br />référencement</h1>
+      <div class="trio">
+        <span
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+          class="t1"
+          >SEO</span
+        >
+        <span
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="600"
+          class="t2"
+          >SEA</span
+        >
+        <span
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="700"
+          class="t3"
+          >GEO</span
+        >
+      </div>
+      <p data-aos="fade-right" data-aos-duration="1500" class="meta">
+        Présenté par Grard Guenael<br />Formateur : M. Saliez · Année académique
+        2026-2027
+      </p>
+    </section>
+
+    <!-- 2. Sommaire -->
+    <section class="slide violet" id="sommaire">
+      <h2 data-aos="fade-down" data-aos-duration="1500">Sommaire</h2>
+      <nav class="toc" aria-label="Sommaire">
+        <a
+          data-aos="flip-up"
+          data-aos-duration="1500"
+          data-aos-delay="800"
+          href="#intro"
+          style="--k: var(--violet)"
+          >Introduction &amp; définitions<small>SEO, SEA, GEO</small></a
+        >
+        <a
+          data-aos="flip-up"
+          data-aos-duration="1500"
+          data-aos-delay="900"
+          href="#moteurs"
+          style="--k: #5b3fd0"
+          >Moteurs de recherche<small>Crawl, index, SERP</small></a
+        >
+        <a
+          data-aos="flip-up"
+          data-aos-duration="1500"
+          data-aos-delay="1000"
+          href="#technique"
+          style="--k: var(--blue)"
+          >SEO technique<small>La base invisible</small></a
+        >
+        <a
+          data-aos="flip-up"
+          data-aos-duration="1500"
+          data-aos-delay="1100"
+          href="#contenu"
+          style="--k: #1d3fc4"
+          >Contenu SEO<small>Mots-clés et structure</small></a
+        >
+        <a
+          data-aos="flip-up"
+          data-aos-duration="1500"
+          data-aos-delay="1200"
+          href="#netlinking"
+          style="--k: #0f8f6c"
+          >Netlinking<small>Gagner des liens</small></a
+        >
+        <a
+          data-aos="flip-up"
+          data-aos-duration="1500"
+          data-aos-delay="1300"
+          href="#sea"
+          style="--k: var(--coral)"
+          >Le SEA<small>La pub payante</small></a
+        >
+        <a
+          data-aos="flip-up"
+          data-aos-duration="1500"
+          data-aos-delay="1400"
+          href="#geo"
+          style="--k: var(--green)"
+          >Le GEO<small>Être cité par les IA</small></a
+        >
+        <a
+          data-aos="flip-up"
+          data-aos-duration="1500"
+          data-aos-delay="1500"
+          href="#conclusion"
+          class="y"
+          style="--k: var(--yellow)"
+          >Conclusion<small>Trois leviers qui se complètent</small></a
+        >
+      </nav>
+    </section>
+
+    <!-- 3. Introduction -->
+    <section class="slide violet" id="intro">
+      <h2 data-aos="fade-down" data-aos-duration="1500">
+        Pourquoi se faire référencer ?
+      </h2>
+      <div class="grid">
+        <div
+          class="card"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
+          <div class="big">8,5 Md</div>
+          <p>de recherches Google par jour dans le monde</p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="600"
+        >
+          <div class="big">27 %</div>
+          <p>des recherches finissent sans clic</p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="700"
+        >
+          <div class="big">75 %</div>
+          <p>sans clic sur mobile</p>
+        </div>
+      </div>
+      <p
+        class="lead"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        data-aos-delay="800"
+      >
+        Face à ce volume, un site qui n’apparaît pas dans les trois premiers
+        résultats a très peu de chances d’être vu. Il existe pourtant une
+        solution durable : le SEO.
+      </p>
+      <p
+        class="hint"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="900"
+      >
+        Au programme : les trois piliers du SEO (technique, contenu,
+        netlinking), puis deux autres leviers, le SEA et le GEO.
+      </p>
+    </section>
+
+    <!-- 4. Définitions -->
+    <section class="slide violet">
+      <h2 data-aos="fade-down" data-aos-duration="1500">
+        Trois sigles à retenir
+      </h2>
+      <div class="grid">
+        <div
+          class="card"
+          style="--c: var(--blue)"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
+          <h3>SEO</h3>
+          <p>
+            <b>Search Engine Optimization</b><br />Ensemble des techniques pour
+            améliorer la position d’un site dans les pages de résultats. On
+            parle aussi de référencement naturel.
+          </p>
+        </div>
+        <div
+          class="card"
+          style="--c: var(--coral)"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="600"
+        >
+          <h3>SEA</h3>
+          <p>
+            <b>Search Engine Advertising</b><br />Système qui place une annonce
+            publicitaire en bonne position dans la partie payante des moteurs de
+            recherche.
+          </p>
+        </div>
+        <div
+          class="card"
+          style="--c: var(--green)"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="700"
+        >
+          <h3>GEO</h3>
+          <p>
+            <b>Generative Engine Optimization</b><br />Ensemble des pratiques
+            pour qu’un contenu ou une marque soit compris, retenu et cité par
+            une IA générative.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Moteurs -->
+    <section class="slide violet" id="moteurs">
+      <h2 data-aos="fade-down" data-aos-duration="1500">
+        Comment fonctionne un moteur ?
+      </h2>
+      <div class="steps">
+        <div
+          class="card"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
+          <h3>Le crawl</h3>
+          <p>
+            Des robots (crawlers) repèrent les pages nouvelles ou modifiées,
+            lisent les balises HTML et suivent les liens internes pour
+            comprendre l’arborescence du site. Ils ne restent qu’un temps limité
+            sur chaque site.
+          </p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="600"
+        >
+          <h3>L’indexation</h3>
+          <p>
+            Les pages explorées sont stockées sur les serveurs du moteur : un
+            index de centaines de milliards de pages. Le SERP affiche des
+            versions en cache, pas du contenu en direct.
+          </p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="700"
+        >
+          <h3>Le classement</h3>
+          <p>
+            Un positionnement initial est calculé à partir de multiples critères
+            tenus secrets, puis affiné au fil des changements apportés aux
+            pages.
+          </p>
+        </div>
+      </div>
+      <p
+        class="hint"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="800"
+      >
+        Une modification peut mettre plusieurs jours à apparaître.
+      </p>
+    </section>
+
+    <!-- 6. Pénalités -->
+    <section class="slide violet">
+      <h2 data-aos="fade-down" data-aos-duration="1500">
+        Attention aux pénalités
+      </h2>
+      <div class="grid">
+        <div
+          class="card solid"
+          data-aos="flip-left"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
+          <div class="big" style="color: var(--on)">50 à 80 %</div>
+          <p>de trafic perdu en cas de pénalité</p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
+          <h3>Algorithmique</h3>
+          <p>
+            Un processus automatisé détecte certaines infractions et bloque le
+            site.
+          </p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
+          <h3>Manuelle</h3>
+          <p>
+            Appliquée après intervention humaine, quand l’algorithme ne parvient
+            pas à trancher.
+          </p>
+        </div>
+      </div>
+      <p
+        class="hint"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="500"
+      >
+        Les moteurs sanctionnent toute tactique qui vise à manipuler
+        l’algorithme.
+      </p>
+    </section>
+
+    <!-- 7. SEO : 3 piliers -->
+    <section class="slide blue">
+      <h2 data-aos="fade-down" data-aos-duration="1500">
+        Le SEO repose sur 3 piliers
+      </h2>
+      <div class="grid">
+        <div
+          class="card solid"
+          data-aos="flip-left"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
+          <h3>Technique</h3>
+          <p>
+            La base invisible : Google doit pouvoir trouver, explorer,
+            interpréter et enregistrer les pages. Une fois en place, on vérifie
+            seulement que tout fonctionne.
+          </p>
+        </div>
+        <div
+          class="card solid"
+          data-aos="flip-left"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
+          <h3>Contenu</h3>
+          <p>
+            Le cœur du référencement : un contenu utile et concret, bien
+            structuré, pensé pour le long terme plutôt que pour des résultats
+            rapides mais instables.
+          </p>
+        </div>
+        <div
+          class="card solid"
+          data-aos="flip-left"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
+          <h3>Popularité</h3>
+          <p>
+            Obtenir des liens depuis d’autres sites : pour Google, un lien est
+            une recommandation. C’est le pilier le plus long à construire.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. SEO technique 1 -->
+    <section class="slide blue" id="technique">
+      <h2 data-aos="fade-down" data-aos-duration="1500">
+        SEO technique : bien démarrer
+      </h2>
+      <div class="grid">
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
+          <h3>Nom de domaine</h3>
+          <p>
+            Simple, court, facile à retenir et aligné avec la marque. Évitez les
+            tirets multiples et vérifiez qu’il est libre, y compris sur les
+            réseaux sociaux.
+          </p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="800"
+        >
+          <h3>Hébergement</h3>
+          <p>
+            Joue sur la vitesse, la stabilité et la sécurité : disponibilité,
+            rapidité des serveurs, montée en puissance. Un mutualisé solide
+            suffit pour débuter.
+          </p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="1100"
+        >
+          <h3>CMS</h3>
+          <p>
+            WordPress génère un HTML propre et lisible pour les moteurs. Un site
+            uniquement en JavaScript côté client est plus lourd à explorer et
+            peut poser des problèmes d’indexation.
+          </p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="1400"
+        >
+          <h3>HTTPS</h3>
+          <p>
+            Un site en http:// est pénalisé par les navigateurs et indirectement
+            par Google. Le certificat SSL chiffre les données et rassure ; Let’s
+            Encrypt le propose gratuitement.
+          </p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="1700"
+        >
+          <h3>URLs</h3>
+          <p>
+            Courtes (moins de 60 caractères), sans accents, mots séparés par des
+            tirets. Si une URL change, une redirection 301 évite les erreurs 404
+            et la perte de SEO.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. SEO technique 2 -->
+    <section class="slide blue">
+      <h2 data-aos="fade-down" data-aos-duration="1500">
+        SEO technique : performance
+      </h2>
+      <div class="grid">
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="500"
+        >
+          <h3>UX</h3>
+          <p>
+            Google analyse comment les visiteurs interagissent avec les pages :
+            paragraphes courts, navigation simple, boutons visibles mais non
+            intrusifs, peu de pop-ups.
+          </p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="800"
+        >
+          <h3>Mobile-first</h3>
+          <p>
+            Plus de la moitié du trafic vient des smartphones et Google analyse
+            d’abord la version mobile. Un site lent ou mal adapté pénalise tout
+            le SEO.
+          </p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="1100"
+        >
+          <h3>Vitesse</h3>
+          <p>
+            Au-delà de 3 secondes, une part importante des visiteurs part.
+            Priorités : images compressées en WebP, lazy loading, moins de
+            scripts lourds et de plugins inutiles.
+          </p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="1400"
+        >
+          <h3>Sitemap</h3>
+          <p>
+            Aide Google à découvrir les pages importantes. Il doit rester propre
+            : pages utiles, URLs canoniques, mise à jour automatique.
+          </p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="1700"
+        >
+          <h3>robots.txt</h3>
+          <p>
+            Indique à Google ce qu’il doit explorer ou ignorer, pour éviter de
+            perdre du temps. Il bloque l’accès aux robots mais ne désindexe pas
+            une page.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. Contenu : mots-clés -->
+    <section class="slide blue" id="contenu">
+      <h2 data-aos="fade-down" data-aos-duration="1500">
+        Contenu : trouver les bons mots-clés
+      </h2>
+      <p
+        class="lead"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        data-aos-delay="500"
+      >
+        Avant d’écrire, identifiez les sujets qui intéressent vos visiteurs et
+        l’intention derrière chaque requête.
+      </p>
+      <div class="grid">
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="800"
+        >
+          <h3>Informationnelle</h3>
+          <p>Apprendre, comprendre, découvrir une solution.</p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="1100"
+        >
+          <h3>Navigationnelle</h3>
+          <p>Rechercher une marque ou un site précis.</p>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="1400"
+        >
+          <h3>Transactionnelle</h3>
+          <p>Comparer, acheter, s’inscrire, passer à l’action.</p>
+        </div>
+      </div>
+      <p
+        class="hint"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="1700"
+      >
+        Privilégier les mots-clés de longue traîne : plus précis et moins
+        concurrentiels, ils ciblent mieux le besoin de l’internaute.
+      </p>
+    </section>
+
+    <!-- 11. Contenu : structure et erreurs -->
+    <section class="slide blue">
+      <h2 data-aos="fade-down" data-aos-duration="1500">
+        Structurer et éviter les erreurs
+      </h2>
+      <p
+        class="lead"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        data-aos-delay="500"
+      >
+        Une bonne structure aide Google à saisir le sujet de la page et facilite
+        la lecture, donc l’expérience utilisateur et le SEO.
+      </p>
+      <div class="grid g2">
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="800"
+        >
+          <h3>À faire</h3>
+          <ul>
+            <li>Un seul H1, puis H2 et H3</li>
+            <li>Une méta description qui donne envie</li>
+            <li>Images optimisées avec balise alt</li>
+            <li>Maillage interne</li>
+          </ul>
+        </div>
+        <div
+          class="card"
+          style="--c: var(--coral)"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="1100"
+        >
+          <h3>À éviter</h3>
+          <ul>
+            <li>Publier trop vite ou trop massivement</li>
+            <li>Cannibaliser un mot-clé</li>
+            <li>Dupliquer des textes</li>
+            <li>Tout laisser écrire à l’IA</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. Netlinking : pourquoi / bon lien -->
+    <section class="slide green" id="netlinking">
+      <h2 data-aos="fade-down" data-aos-duration="1500">
+        Netlinking : un lien est une recommandation
+      </h2>
+      <p
+        class="lead"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        data-aos-delay="500"
+      >
+        Obtenir des backlinks, des liens entrants depuis d’autres sites. Plus
+        des sites fiables pointent vers vous, plus Google vous juge crédible :
+        c’est le principe du PageRank.
+      </p>
+      <div class="grid g2">
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="800"
+        >
+          <h3>Pourquoi ?</h3>
+          <ul>
+            <li>Autorité et confiance</li>
+            <li>Découverte des pages</li>
+            <li>Trafic direct</li>
+            <li>Notoriété</li>
+          </ul>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-delay="1100"
+        >
+          <h3>Un bon lien</h3>
+          <ul>
+            <li>Site source reconnu</li>
+            <li>Thème pertinent</li>
+            <li>Placé dans le corps d’un article</li>
+            <li>Sources variées</li>
+          </ul>
+        </div>
+      </div>
+      <p
+        class="hint"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="1400"
+      >
+        La qualité compte bien plus que la quantité : 10 liens de 10 sites
+        différents valent mieux que 10 liens du même site.
+      </p>
+    </section>
+
+    <!-- 13. Ancres et obtention -->
+    <section class="slide green">
+      <h2 data-aos="fade-down" data-aos-duration="1500">Ancres et obtention de liens</h2>
+      <div class="grid g2">
+        <div class="card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+          <h3>Ancres variées</h3>
+          <ul>
+            <li>De marque : « IRAM »</li>
+            <li>URL nue</li>
+            <li>Exacte, partielle, générique</li>
+          </ul>
+          <p style="margin-top: 0.5rem">
+            Un profil naturel est dominé par les ancres de marque et les URLs.
+            Répéter la même ancre exacte paraît artificiel et peut passer pour
+            de la manipulation.
+          </p>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+          <h3>Comment en obtenir ?</h3>
+          <ul>
+            <li>Contenu « linkable » : études, guides</li>
+            <li>Articles invités</li>
+            <li>Relations presse</li>
+            <li>Annuaires et partenariats</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 14. Pratiques à éviter / suivi -->
+    <section class="slide green">
+      <h2 data-aos="fade-down" data-aos-duration="1500">Pratiques à éviter et suivi</h2>
+      <div class="grid g2">
+        <div class="card" style="--c: var(--coral)" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+          <h3>Considéré comme du spam</h3>
+          <ul>
+            <li>Achat ou vente de liens</li>
+            <li>Échanges excessifs</li>
+            <li>Fermes de liens</li>
+            <li>Liens automatisés</li>
+          </ul>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+          <h3>Suivre ses backlinks</h3>
+          <ul>
+            <li>Google Search Console (gratuit)</li>
+            <li>Ahrefs, Semrush, Majestic, Moz</li>
+            <li>Outil de désaveu en dernier recours</li>
+          </ul>
+        </div>
+      </div>
+      <p class="hint" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100">
+        Google surveille ce domaine de près. Face à beaucoup de liens de
+        mauvaise qualité non sollicités, la Search Console propose un outil de
+        désaveu, rarement nécessaire.
+      </p>
+    </section>
+
+    <!-- 15. SEA : principe -->
+    <section class="slide coral" id="sea">
+      <h2 data-aos="fade-down" data-aos-duration="1500">Le SEA : payer pour être visible</h2>
+      <div class="grid g2">
+        <div class="card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+          <h3>Le principe</h3>
+          <p>
+            Publicité affichée au-dessus ou en dessous des résultats naturels,
+            avec la mention « Sponsorisé », sur Google Ads et Microsoft
+            Advertising. Le résultat est immédiat, mais l’annonce disparaît dès
+            que le budget s’arrête.
+          </p>
+        </div>
+        <div class="card solid" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="800">
+          <h3>L’enchère</h3>
+          <p>
+            À chaque recherche, une enchère se joue en une fraction de seconde.
+            Le gagnant n’est pas celui qui paie le plus : l’<b>Ad Rank</b>
+            combine l’enchère avec la pertinence de l’annonce, le taux de clic
+            attendu et la qualité de la landing page.
+          </p>
+        </div>
+      </div>
+      <p class="hint" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100">
+        Modèle le plus courant : le CPC. On ne paie que si quelqu’un clique, et
+        le prix réel est généralement inférieur à l’enchère maximale.
+      </p>
+    </section>
+
+    <!-- 16. SEA : campagnes -->
+    <section class="slide coral">
+      <h2 data-aos="fade-down" data-aos-duration="1500">Campagnes et annonces</h2>
+      <div class="grid">
+        <div class="card" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="500">
+          <h3>Search</h3>
+          <p>Texte dans les résultats</p>
+        </div>
+        <div class="card" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="800">
+          <h3>Display</h3>
+          <p>Bannières sur sites partenaires</p>
+        </div>
+        <div class="card" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="1100">
+          <h3>Shopping</h3>
+          <p>Produits avec photo et prix</p>
+        </div>
+        <div class="card" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="1400">
+          <h3>Vidéo</h3>
+          <p>Sur YouTube</p>
+        </div>
+        <div class="card" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="1700">
+          <h3>Performance Max</h3>
+          <p>Tous les canaux, en automatique</p>
+        </div>
+      </div>
+      <p class="hint" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="2000">
+        Un compte s’organise en campagnes, groupes d’annonces, annonces et
+        mots-clés. Les mots-clés négatifs (« gratuit », « emploi ») évitent de
+        payer des clics inutiles. La page de destination est aussi importante
+        que l’annonce : elle doit tenir sa promesse, charger vite et rendre
+        l’action évidente. C’est là que l’UX/UI agit.
+      </p>
+    </section>
+
+    <!-- 17. SEA : indicateurs -->
+    <section class="slide coral">
+      <h2 data-aos="fade-down" data-aos-duration="1500">Les indicateurs à suivre</h2>
+      <table data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+        <tr>
+          <th>Indicateur</th>
+          <th>Signification</th>
+        </tr>
+        <tr>
+          <td>Impressions</td>
+          <td>Nombre d’affichages</td>
+        </tr>
+        <tr>
+          <td>CTR</td>
+          <td>Clics ÷ impressions</td>
+        </tr>
+        <tr>
+          <td>CPC</td>
+          <td>Coût moyen d’un clic</td>
+        </tr>
+        <tr>
+          <td>Taux de conversion</td>
+          <td>Part des visiteurs qui passent à l’action</td>
+        </tr>
+        <tr>
+          <td>CPA</td>
+          <td>Coût pour obtenir une conversion</td>
+        </tr>
+        <tr>
+          <td>ROAS</td>
+          <td>Revenu pour 1 € dépensé</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- 18. SEO vs SEA -->
+    <section class="slide coral">
+      <h2 data-aos="fade-down" data-aos-duration="1500">SEO ou SEA ?</h2>
+      <table data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+        <tr>
+          <th></th>
+          <th>SEO</th>
+          <th>SEA</th>
+        </tr>
+        <tr>
+          <td>Coût</td>
+          <td>Du temps et du travail</td>
+          <td>Paiement au clic</td>
+        </tr>
+        <tr>
+          <td>Délai</td>
+          <td>Plusieurs mois</td>
+          <td>Immédiat</td>
+        </tr>
+        <tr>
+          <td>Durée</td>
+          <td>Durable</td>
+          <td>Tant que le budget court</td>
+        </tr>
+        <tr>
+          <td>Ciblage</td>
+          <td>Indirect</td>
+          <td>Précis</td>
+        </tr>
+        <tr>
+          <td>Mesure</td>
+          <td>Indirecte</td>
+          <td>Très précise</td>
+        </tr>
+      </table>
+      <p class="hint" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+        Ils se complètent : le SEA teste vite, le SEO construit dans la durée.
+      </p>
+    </section>
+
+    <!-- 19. GEO : principe -->
+    <section class="slide green" id="geo">
+      <h2 data-aos="fade-down" data-aos-duration="1500">Le GEO : être cité par les IA</h2>
+      <div class="grid g2">
+        <div class="card" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="500">
+          <h3>L’enjeu</h3>
+          <p>
+            De plus en plus d’internautes interrogent ChatGPT, Gemini,
+            Perplexity ou lisent les AI Overviews de Google. Ces outils donnent
+            une réponse rédigée, parfois avec sources : l’enjeu est d’être
+            <b>cité dans la réponse</b>, pas seulement listé.
+          </p>
+        </div>
+        <div class="card solid" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="800">
+          <h3>Comment l’IA choisit ?</h3>
+          <p>
+            Une IA répond avec ce qu’elle a appris et, souvent, avec des
+            recherches web en temps réel : elle récupère des pages, en extrait
+            les passages utiles puis rédige une synthèse. Les pages claires et
+            faciles à extraire sont reprises.
+          </p>
+        </div>
+      </div>
+      <p class="hint" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+        Le GEO ne remplace pas le SEO, il s’appuie dessus. Google le confirme :
+        pas d’optimisation spécifique pour AI Overviews, les fondamentaux du SEO
+        restent valables.
+      </p>
+    </section>
+
+    <!-- 20. GEO : bonnes pratiques -->
+    <section class="slide green">
+      <h2 data-aos="fade-down" data-aos-duration="1500">GEO : les bonnes pratiques</h2>
+      <div class="grid">
+        <div class="card" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="500">
+          <h3>Être repris</h3>
+          <p>
+            Répondre dès les premières lignes puis détailler. Titres en
+            questions, listes, tableaux, FAQ, données chiffrées, mises à jour
+            datées.
+          </p>
+        </div>
+        <div class="card" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="800">
+          <h3>Être crédible</h3>
+          <p>
+            E-E-A-T : Expérience, Expertise, Autorité, Fiabilité. Concrètement :
+            auteurs identifiés, page « À propos » claire, avis clients, études.
+          </p>
+        </div>
+        <div class="card" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="1100">
+          <h3>Être compris</h3>
+          <p>
+            Données structurées JSON-LD, identité cohérente partout (site,
+            Google Business Profile, réseaux), HTML lisible et robots.txt qui
+            n’interdit pas OAI-SearchBot par erreur.
+          </p>
+        </div>
+        <div class="card" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="1400">
+          <h3>Être mentionné</h3>
+          <p>
+            Les IA s’appuient aussi sur ce qui se dit de vous ailleurs :
+            articles, comparatifs, forums, avis. Mentions de marque et
+            netlinking contribuent au GEO.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 21. GEO : mesure, limites, comparaison -->
+    <section class="slide green">
+      <h2 data-aos="fade-down" data-aos-duration="1500">GEO : mesurer, limites, comparaison</h2>
+      <div class="grid g2">
+        <div class="card" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="500">
+          <h3>Mesurer</h3>
+          <ul>
+            <li>Tester des questions types</li>
+            <li>Repérer le trafic venu des IA</li>
+            <li>Outils de suivi de visibilité IA</li>
+          </ul>
+        </div>
+        <div class="card" style="--c: var(--coral)" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="800">
+          <h3>Vigilance</h3>
+          <ul>
+            <li>Domaine très récent, aucune garantie</li>
+            <li>llms.txt : encore expérimental</li>
+            <li>Manipuler les IA est risqué</li>
+          </ul>
+        </div>
+      </div>
+      <table data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100">
+        <tr>
+          <th></th>
+          <th>SEO</th>
+          <th>GEO</th>
+        </tr>
+        <tr>
+          <td>Objectif</td>
+          <td>Bien classé dans la liste</td>
+          <td>Cité dans la réponse</td>
+        </tr>
+        <tr>
+          <td>Résultat</td>
+          <td>Un clic vers le site</td>
+          <td>Une citation, parfois sans clic</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- 22. Conclusion -->
+    <section class="slide yellow" id="conclusion">
+      <h2 data-aos="fade-down" data-aos-duration="1500">Conclusion</h2>
+      <div class="grid">
+        <div class="card" style="--c: var(--blue)" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="500">
+          <h3>SEO</h3>
+          <p>Visibilité durable, mais lente à construire.</p>
+        </div>
+        <div class="card" style="--c: var(--coral)" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="800">
+          <h3>SEA</h3>
+          <p>Visibilité immédiate, tant que le budget est actif.</p>
+        </div>
+        <div class="card" style="--c: var(--green)" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="1100">
+          <h3>GEO</h3>
+          <p>Citation dans les réponses des IA, en complément du SEO.</p>
+        </div>
+      </div>
+      <p class="lead" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1400">
+        Le SEO reste la base, et l’expérience utilisateur est au centre : c’est
+        là que le travail d’un UX/UI designer fait la différence.
+      </p>
+      <p class="hint" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1700">
+        Le référencement n’est jamais terminé : mesurer, ajuster, produire du
+        contenu de qualité.
+      </p>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
